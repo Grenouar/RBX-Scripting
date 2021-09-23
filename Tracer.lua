@@ -1,14 +1,8 @@
---[[ Configurações ]]--
-
-local Distance = 100
-
--------------------------------------------------------------------------------------------------
-
 --[[ Ignore ]]--
 
 if not _G.Exploit then _G.Exploit = {} end
 _G.Exploit.Activated = true
-_G.Exploit.Distance = tonumber(Distance)
+_G.Exploit.Distance = 100
 
 --------------------------------------------------
 
