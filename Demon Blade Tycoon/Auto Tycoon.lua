@@ -14,7 +14,7 @@ local VirtualUser = game:GetService("VirtualUser")
 local Lighting = game:GetService("Lighting")
 local Players = game:GetService("Players")
 
-local UIModule = loadstring(game:HttpGet("https://pastebin.com/raw/G4NNPJdC", true))()
+local UIModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/Grenouar/RBX-Scripting/main/Demon%20Blade%20Tycoon/UI.lua", true))()
 
 local Camera = workspace.CurrentCamera
 
