@@ -282,6 +282,14 @@ for _,Button in ipairs(BackgroundUI.Donations.Prices:GetChildren()) do
 	end
 end
 
+local LockMenu = PlayerGui.Main.MorphMenu.LockMenu
+
+LockMenu:GetPropertyChangedSignal("Enabled"):Connect(function()
+	LockMenu.Enabled = false
+end)
+
+LockMenu.Enabled = false
+
 --TweenService:Create(Lighting, TweenInfo.new(0.5, Enum.EasingStyle.Sine), {Ambient = Color3.fromRGB(255, 255, 255), Brightness = 0.5}):Play()
 
 local Sky = Lighting:FindFirstChildWhichIsA("Sky")
