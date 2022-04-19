@@ -61,6 +61,7 @@ return function()
 
 	AutoTycoon.Name = "AutoTycoon"
 	AutoTycoon.Parent = CoreGui
+	AutoTycoon.Enabled = false
 	AutoTycoon.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	AutoTycoon.ResetOnSpawn = false
 	AutoTycoon.IgnoreGuiInset = true
