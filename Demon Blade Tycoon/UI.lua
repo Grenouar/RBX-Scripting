@@ -63,6 +63,7 @@ return function()
 	AutoTycoon.Parent = CoreGui
 	AutoTycoon.Enabled = false
 	AutoTycoon.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	AutoTycoon.DisplayOrder = -1
 	AutoTycoon.ResetOnSpawn = false
 	AutoTycoon.IgnoreGuiInset = true
 
