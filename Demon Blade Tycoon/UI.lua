@@ -33,12 +33,34 @@ return function()
 	local CloseButton = Instance.new("ImageButton")
 	local Credits = Instance.new("TextLabel")
 	local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+	local Donations = Instance.new("Frame")
+	local UICorner_11 = Instance.new("UICorner")
+	local Title_2 = Instance.new("TextLabel")
+	local Prices = Instance.new("Frame")
+	local UICorner_12 = Instance.new("UICorner")
+	local UIListLayout = Instance.new("UIListLayout")
+	local UIPadding = Instance.new("UIPadding")
+	local _5 = Instance.new("TextButton")
+	local UICorner_13 = Instance.new("UICorner")
+	local TextLabel_4 = Instance.new("TextLabel")
+	local _50 = Instance.new("TextButton")
+	local UICorner_14 = Instance.new("UICorner")
+	local TextLabel_5 = Instance.new("TextLabel")
+	local _100 = Instance.new("TextButton")
+	local UICorner_15 = Instance.new("UICorner")
+	local TextLabel_6 = Instance.new("TextLabel")
+	local _500 = Instance.new("TextButton")
+	local UICorner_16 = Instance.new("UICorner")
+	local TextLabel_7 = Instance.new("TextLabel")
+	local _1000 = Instance.new("TextButton")
+	local UICorner_17 = Instance.new("UICorner")
+	local TextLabel_8 = Instance.new("TextLabel")
+	local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 
 	--Properties:
 
 	AutoTycoon.Name = "AutoTycoon"
 	AutoTycoon.Parent = CoreGui
-	AutoTycoon.Enabled = false
 	AutoTycoon.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	AutoTycoon.ResetOnSpawn = false
 	AutoTycoon.IgnoreGuiInset = true
@@ -187,8 +209,8 @@ return function()
 	LabelType.Parent = Background
 	LabelType.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	LabelType.BackgroundTransparency = 1.000
-	LabelType.Position = UDim2.new(0.051, 0, 0.188, 0)
-	LabelType.Size = UDim2.new(0.898, 0, 0.06, 0)
+	LabelType.Position = UDim2.new(0.050999999, 0, 0.187999994, 0)
+	LabelType.Size = UDim2.new(0.897717953, 0, 0.0596658699, 0)
 	LabelType.Font = Enum.Font.FredokaOne
 	LabelType.Text = "Tycoon Type:"
 	LabelType.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -216,13 +238,13 @@ return function()
 	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel_3.BackgroundTransparency = 1.000
 	TextLabel_3.Position = UDim2.new(0.5, 0, 0.5, 0)
-	TextLabel_3.Size = UDim2.new(0.8, 0, 0.8, 0)
+	TextLabel_3.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
 	TextLabel_3.Font = Enum.Font.FredokaOne
 	TextLabel_3.Text = "Demon"
 	TextLabel_3.TextColor3 = Color3.fromRGB(100, 0, 0)
 	TextLabel_3.TextScaled = true
 	TextLabel_3.TextSize = 14.000
-	TextLabel_3.TextStrokeTransparency = 0
+	TextLabel_3.TextStrokeTransparency = 0.000
 	TextLabel_3.TextWrapped = true
 
 	Line.Name = "Line"
@@ -234,7 +256,7 @@ return function()
 	UICorner_10.CornerRadius = UDim.new(1, 0)
 	UICorner_10.Parent = Line
 
-	_Version.Name = "Version"
+	_Version.Name = "_Version"
 	_Version.Parent = Background
 	_Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	_Version.BackgroundTransparency = 1.000
@@ -262,8 +284,8 @@ return function()
 	Credits.Parent = Background
 	Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Credits.BackgroundTransparency = 1.000
-	Credits.Position = UDim2.new(0.063, 0, 0.85, 0)
-	Credits.Size = UDim2.new(0.897, 0, 0.057, 0)
+	Credits.Position = UDim2.new(0.0626782328, 0, 0.850319326, 0)
+	Credits.Size = UDim2.new(0.897436023, 0, 0.0566018708, 0)
 	Credits.Font = Enum.Font.FredokaOne
 	Credits.Text = "Made by Grenouer#0331"
 	Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -275,5 +297,185 @@ return function()
 	UIAspectRatioConstraint.Parent = Background
 	UIAspectRatioConstraint.AspectRatio = 0.830
 
+	Donations.Name = "Donations"
+	Donations.Parent = Background
+	Donations.AnchorPoint = Vector2.new(0.5, 0.5)
+	Donations.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+	Donations.Position = UDim2.new(1.47463477, 0, 0.625277162, 0)
+	Donations.Size = UDim2.new(0.886918008, 0, 0.74872756, 0)
+
+	UICorner_11.CornerRadius = UDim.new(0.0500000007, 0)
+	UICorner_11.Parent = Donations
+
+	Title_2.Name = "Title"
+	Title_2.Parent = Donations
+	Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Title_2.BackgroundTransparency = 1.000
+	Title_2.Position = UDim2.new(0, 0, 0.0149999997, 0)
+	Title_2.Size = UDim2.new(1, 0, 0.135207459, 0)
+	Title_2.Font = Enum.Font.SourceSansBold
+	Title_2.Text = "Donations"
+	Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Title_2.TextScaled = true
+	Title_2.TextSize = 14.000
+	Title_2.TextStrokeTransparency = 0.500
+	Title_2.TextWrapped = true
+
+	Prices.Name = "Prices"
+	Prices.Parent = Donations
+	Prices.AnchorPoint = Vector2.new(0.5, 0.5)
+	Prices.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+	Prices.Position = UDim2.new(0.498194933, 0, 0.565217376, 0)
+	Prices.Size = UDim2.new(0.935018063, 0, 0.81422925, 0)
+
+	UICorner_12.CornerRadius = UDim.new(0.0500000007, 0)
+	UICorner_12.Parent = Prices
+
+	UIListLayout.Parent = Prices
+	UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	UIListLayout.Padding = UDim.new(0.0299999993, 0)
+
+	UIPadding.Parent = Prices
+	UIPadding.PaddingTop = UDim.new(0.0299999993, 0)
+
+	_5.Name = "_5"
+	_5.Parent = Prices
+	_5.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+	_5.LayoutOrder = 5
+	_5.Size = UDim2.new(0.949806929, 0, 0.169902906, 0)
+	_5.Font = Enum.Font.SourceSans
+	_5.Text = ""
+	_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+	_5.TextSize = 14.000
+
+	UICorner_13.CornerRadius = UDim.new(1, 0)
+	UICorner_13.Parent = _5
+
+	TextLabel_4.Parent = _5
+	TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+	TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_4.BackgroundTransparency = 1.000
+	TextLabel_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+	TextLabel_4.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+	TextLabel_4.Font = Enum.Font.FredokaOne
+	TextLabel_4.Text = "5 Robux"
+	TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_4.TextScaled = true
+	TextLabel_4.TextSize = 14.000
+	TextLabel_4.TextStrokeTransparency = 0.500
+	TextLabel_4.TextWrapped = true
+
+	_50.Name = "_50"
+	_50.Parent = Prices
+	_50.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+	_50.LayoutOrder = 50
+	_50.Size = UDim2.new(0.949806929, 0, 0.169902906, 0)
+	_50.Font = Enum.Font.SourceSans
+	_50.Text = ""
+	_50.TextColor3 = Color3.fromRGB(0, 0, 0)
+	_50.TextSize = 14.000
+
+	UICorner_14.CornerRadius = UDim.new(1, 0)
+	UICorner_14.Parent = _50
+
+	TextLabel_5.Parent = _50
+	TextLabel_5.AnchorPoint = Vector2.new(0.5, 0.5)
+	TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_5.BackgroundTransparency = 1.000
+	TextLabel_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+	TextLabel_5.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+	TextLabel_5.Font = Enum.Font.FredokaOne
+	TextLabel_5.Text = "50 Robux"
+	TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_5.TextScaled = true
+	TextLabel_5.TextSize = 14.000
+	TextLabel_5.TextStrokeTransparency = 0.500
+	TextLabel_5.TextWrapped = true
+
+	_100.Name = "_100"
+	_100.Parent = Prices
+	_100.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+	_100.LayoutOrder = 100
+	_100.Size = UDim2.new(0.949806929, 0, 0.169902906, 0)
+	_100.Font = Enum.Font.SourceSans
+	_100.Text = ""
+	_100.TextColor3 = Color3.fromRGB(0, 0, 0)
+	_100.TextSize = 14.000
+
+	UICorner_15.CornerRadius = UDim.new(1, 0)
+	UICorner_15.Parent = _100
+
+	TextLabel_6.Parent = _100
+	TextLabel_6.AnchorPoint = Vector2.new(0.5, 0.5)
+	TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_6.BackgroundTransparency = 1.000
+	TextLabel_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+	TextLabel_6.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+	TextLabel_6.Font = Enum.Font.FredokaOne
+	TextLabel_6.Text = "100 Robux"
+	TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_6.TextScaled = true
+	TextLabel_6.TextSize = 14.000
+	TextLabel_6.TextStrokeTransparency = 0.500
+	TextLabel_6.TextWrapped = true
+
+	_500.Name = "_500"
+	_500.Parent = Prices
+	_500.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+	_500.LayoutOrder = 500
+	_500.Size = UDim2.new(0.949806929, 0, 0.169902906, 0)
+	_500.Font = Enum.Font.SourceSans
+	_500.Text = ""
+	_500.TextColor3 = Color3.fromRGB(0, 0, 0)
+	_500.TextSize = 14.000
+
+	UICorner_16.CornerRadius = UDim.new(1, 0)
+	UICorner_16.Parent = _500
+
+	TextLabel_7.Parent = _500
+	TextLabel_7.AnchorPoint = Vector2.new(0.5, 0.5)
+	TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_7.BackgroundTransparency = 1.000
+	TextLabel_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+	TextLabel_7.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+	TextLabel_7.Font = Enum.Font.FredokaOne
+	TextLabel_7.Text = "500 Robux"
+	TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_7.TextScaled = true
+	TextLabel_7.TextSize = 14.000
+	TextLabel_7.TextStrokeTransparency = 0.500
+	TextLabel_7.TextWrapped = true
+
+	_1000.Name = "_1000"
+	_1000.Parent = Prices
+	_1000.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+	_1000.LayoutOrder = 1000
+	_1000.Size = UDim2.new(0.949806929, 0, 0.169902906, 0)
+	_1000.Font = Enum.Font.SourceSans
+	_1000.Text = ""
+	_1000.TextColor3 = Color3.fromRGB(0, 0, 0)
+	_1000.TextSize = 14.000
+
+	UICorner_17.CornerRadius = UDim.new(1, 0)
+	UICorner_17.Parent = _1000
+
+	TextLabel_8.Parent = _1000
+	TextLabel_8.AnchorPoint = Vector2.new(0.5, 0.5)
+	TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_8.BackgroundTransparency = 1.000
+	TextLabel_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+	TextLabel_8.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+	TextLabel_8.Font = Enum.Font.FredokaOne
+	TextLabel_8.Text = "1000 Robux"
+	TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_8.TextScaled = true
+	TextLabel_8.TextSize = 14.000
+	TextLabel_8.TextStrokeTransparency = 0.500
+	TextLabel_8.TextWrapped = true
+
+	UIAspectRatioConstraint_2.Parent = Donations
+	UIAspectRatioConstraint_2.AspectRatio = 0.983
+	
 	return AutoTycoon
 end
