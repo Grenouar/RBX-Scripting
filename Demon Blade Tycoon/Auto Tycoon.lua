@@ -283,10 +283,10 @@ for _,Button in ipairs(BackgroundUI.Donations.Prices:GetChildren()) do
 end
 
 local LockFrame = PlayerGui.Main.MorphMenu.LockFrame
-LockFrame:GetPropertyChangedSignal("Enabled"):Connect(function()
-	LockFrame.Enabled = false
+LockFrame:GetPropertyChangedSignal("Visible"):Connect(function()
+	LockFrame.Visible = false
 end)
-LockFrame.Enabled = false
+LockFrame.Visible = false
 
 --TweenService:Create(Lighting, TweenInfo.new(0.5, Enum.EasingStyle.Sine), {Ambient = Color3.fromRGB(255, 255, 255), Brightness = 0.5}):Play()
 
