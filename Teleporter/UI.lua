@@ -35,6 +35,7 @@ return function()
 	Fundo.BackgroundTransparency = 0.5
 	Fundo.Position = UDim2.new(0.043, 0, 0.284, 0)
 	Fundo.Size = UDim2.new(0.219, 0, 0.231, 0)
+	Fundo.Draggable = true
 
 	UIAspectRatioConstraint.Parent = Fundo
 	UIAspectRatioConstraint.AspectRatio = 1.736
@@ -176,7 +177,6 @@ return function()
 	Header.BackgroundColor3 = Color3.new(1, 1, 1)
 	Header.BorderSizePixel = 0
 	Header.Size = UDim2.new(1, 0, 0.168, 0)
-	Header.Draggable = true
 
 	Title.Name = "Título"
 	Title.Parent = Header
