@@ -17,7 +17,7 @@ return function()
 	local X = Instance.new("TextLabel")
 	local Y = Instance.new("TextLabel")
 	local Z = Instance.new("TextLabel")
-	local Header = Instance.new("ImageLabel")
+	local Header = Instance.new("Frame")
 	local Title = Instance.new("TextLabel")
 
 	--Properties:
@@ -176,7 +176,6 @@ return function()
 	Header.BackgroundColor3 = Color3.new(1, 1, 1)
 	Header.BorderSizePixel = 0
 	Header.Size = UDim2.new(1, 0, 0.168, 0)
-	Header.ImageTransparency = 1
 
 	Title.Name = "Título"
 	Title.Parent = Header
