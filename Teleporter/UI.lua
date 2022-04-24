@@ -176,6 +176,7 @@ return function()
 	Header.BackgroundColor3 = Color3.new(1, 1, 1)
 	Header.BorderSizePixel = 0
 	Header.Size = UDim2.new(1, 0, 0.168, 0)
+	Header.Draggable = true
 
 	Title.Name = "Título"
 	Title.Parent = Header
