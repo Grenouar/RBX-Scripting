@@ -32,10 +32,11 @@ return function()
 	Fundo.Name = "Fundo"
 	Fundo.Parent = Teleporte
 	Fundo.Active = true
+	Fundo.AnchorPoint = Vector2.new(0.5, 0.5)
 	Fundo.BackgroundColor3 = Color3.new()
 	Fundo.BackgroundTransparency = 0.5
 	Fundo.Draggable = true
-	Fundo.Position = UDim2.new(0.043, 0, 0.5, 0)
+	Fundo.Position = UDim2.new(0.152, 0, 0.615, 0)
 	Fundo.Size = UDim2.new(0.219, 0, 0.231, 0)
 
 	UIAspectRatioConstraint.Parent = Fundo
@@ -190,6 +191,9 @@ return function()
 	Title.TextColor3 = Color3.new()
 	Title.TextScaled = true
 	Title.TextXAlignment = Enum.TextXAlignment.Left
+
+	Fundo.Size = UDim2.new()
+	Fundo:TweenSize(UDim2.new(0.219, 0, 0.231, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.25, true)
 	
 	return Teleporte
 end
