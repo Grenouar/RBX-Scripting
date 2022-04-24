@@ -31,11 +31,12 @@ return function()
 
 	Fundo.Name = "Fundo"
 	Fundo.Parent = Teleporte
+	Fundo.Active = true
 	Fundo.BackgroundColor3 = Color3.new()
 	Fundo.BackgroundTransparency = 0.5
-	Fundo.Position = UDim2.new(0.043, 0, 0.284, 0)
-	Fundo.Size = UDim2.new(0.219, 0, 0.231, 0)
 	Fundo.Draggable = true
+	Fundo.Position = UDim2.new(0.043, 0, 0.5, 0)
+	Fundo.Size = UDim2.new(0.219, 0, 0.231, 0)
 
 	UIAspectRatioConstraint.Parent = Fundo
 	UIAspectRatioConstraint.AspectRatio = 1.736
